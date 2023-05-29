@@ -37,18 +37,15 @@ import random
 # Выдать без повторений в порядке возрастания все те числа, которые встречаются в обоих наборах.
 # Пользователь вводит 2 числа. n - кол-во элементов первого множества. m - кол-во элементов второго множества.
 #
-# n=int(input("Введите число N: "))
-# m=int(input("Введите число M: "))
-# arr=[random.randint(0, 20) for i in range(n)]
-# print(arr)
-# arr2=[random.randint(0, 20) for i in range(n)]
-# print(arr2)
-# res=[]
-#
-# for el in arr:
-#     if el in arr2:
-#         res.append(el)
-# print((set(arr).intersection(arr2)))
+n=int(input("Введите число N: "))
+m=int(input("Введите число M: "))
+arr=[random.randint(0, 20) for i in range(n)]
+print(arr)
+arr2=[random.randint(0, 20) for i in range(n)]
+print(arr2)
+res=[]
+
+print((set(arr).intersection(arr2)))
 
 # Задача 24: В фермерском хозяйстве в Карелии выращивают чернику.
 # Она растет на круглой грядке, причем кусты высажены только по окружности.
